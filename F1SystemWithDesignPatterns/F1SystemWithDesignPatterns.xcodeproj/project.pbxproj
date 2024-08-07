@@ -12,6 +12,7 @@
 		85DC5D3D2C5E7C20008543DD /* Pilot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D3C2C5E7C20008543DD /* Pilot.swift */; };
 		85DC5D3F2C5E7E32008543DD /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D3E2C5E7E32008543DD /* Car.swift */; };
 		85DC5D412C5E7F25008543DD /* TeamBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D402C5E7F25008543DD /* TeamBuilder.swift */; };
+		85DC5D432C5E8800008543DD /* SeasonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D422C5E8800008543DD /* SeasonManager.swift */; };
 		85DC5D4B2C5E9E71008543DD /* TeamRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D4A2C5E9E71008543DD /* TeamRepository.swift */; };
 		85DC5D4D2C614A54008543DD /* CarSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D4C2C614A54008543DD /* CarSpecification.swift */; };
 		85DC5D4F2C615AFB008543DD /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D4E2C615AFB008543DD /* Observer.swift */; };
@@ -38,6 +39,7 @@
 		85DC5D3C2C5E7C20008543DD /* Pilot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilot.swift; sourceTree = "<group>"; };
 		85DC5D3E2C5E7E32008543DD /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		85DC5D402C5E7F25008543DD /* TeamBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBuilder.swift; sourceTree = "<group>"; };
+		85DC5D422C5E8800008543DD /* SeasonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonManager.swift; sourceTree = "<group>"; };
 		85DC5D4A2C5E9E71008543DD /* TeamRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRepository.swift; sourceTree = "<group>"; };
 		85DC5D4C2C614A54008543DD /* CarSpecification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSpecification.swift; sourceTree = "<group>"; };
 		85DC5D4E2C615AFB008543DD /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				85DC5D332C5E7789008543DD /* main.swift */,
+				85DC5D422C5E8800008543DD /* SeasonManager.swift */,
 				85DC5D4A2C5E9E71008543DD /* TeamRepository.swift */,
 				85DC5D402C5E7F25008543DD /* TeamBuilder.swift */,
 				85DC5D3A2C5E7C0A008543DD /* Team.swift */,
@@ -155,6 +158,7 @@
 				85DC5D342C5E7789008543DD /* main.swift in Sources */,
 				85DC5D3F2C5E7E32008543DD /* Car.swift in Sources */,
 				85DC5D512C615B0A008543DD /* Subject.swift in Sources */,
+				85DC5D432C5E8800008543DD /* SeasonManager.swift in Sources */,
 				85DC5D4B2C5E9E71008543DD /* TeamRepository.swift in Sources */,
 				85DC5D3D2C5E7C20008543DD /* Pilot.swift in Sources */,
 			);
