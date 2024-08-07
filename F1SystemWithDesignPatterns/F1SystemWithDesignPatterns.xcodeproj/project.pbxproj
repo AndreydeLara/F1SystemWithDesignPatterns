@@ -12,6 +12,9 @@
 		85DC5D3D2C5E7C20008543DD /* Pilot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D3C2C5E7C20008543DD /* Pilot.swift */; };
 		85DC5D3F2C5E7E32008543DD /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D3E2C5E7E32008543DD /* Car.swift */; };
 		85DC5D4D2C614A54008543DD /* CarSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D4C2C614A54008543DD /* CarSpecification.swift */; };
+		85DC5D4F2C615AFB008543DD /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D4E2C615AFB008543DD /* Observer.swift */; };
+		85DC5D512C615B0A008543DD /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D502C615B0A008543DD /* Subject.swift */; };
+		85DC5D532C615BB1008543DD /* CarSpecificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC5D522C615BB1008543DD /* CarSpecificationObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +36,9 @@
 		85DC5D3C2C5E7C20008543DD /* Pilot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilot.swift; sourceTree = "<group>"; };
 		85DC5D3E2C5E7E32008543DD /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		85DC5D4C2C614A54008543DD /* CarSpecification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSpecification.swift; sourceTree = "<group>"; };
+		85DC5D4E2C615AFB008543DD /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		85DC5D502C615B0A008543DD /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		85DC5D522C615BB1008543DD /* CarSpecificationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSpecificationObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 				85DC5D3C2C5E7C20008543DD /* Pilot.swift */,
 				85DC5D3E2C5E7E32008543DD /* Car.swift */,
 				85DC5D4C2C614A54008543DD /* CarSpecification.swift */,
+				85DC5D4E2C615AFB008543DD /* Observer.swift */,
+				85DC5D502C615B0A008543DD /* Subject.swift */,
+				85DC5D522C615BB1008543DD /* CarSpecificationObserver.swift */,
 			);
 			path = F1SystemWithDesignPatterns;
 			sourceTree = "<group>";
@@ -132,10 +141,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85DC5D532C615BB1008543DD /* CarSpecificationObserver.swift in Sources */,
 				85DC5D4D2C614A54008543DD /* CarSpecification.swift in Sources */,
+				85DC5D4F2C615AFB008543DD /* Observer.swift in Sources */,
 				85DC5D3B2C5E7C0A008543DD /* Team.swift in Sources */,
 				85DC5D342C5E7789008543DD /* main.swift in Sources */,
 				85DC5D3F2C5E7E32008543DD /* Car.swift in Sources */,
+				85DC5D512C615B0A008543DD /* Subject.swift in Sources */,
 				85DC5D3D2C5E7C20008543DD /* Pilot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
